@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "7dR9RjuW8ohI6LDTHwGwhg4n8RXnhaODri4El7+RkIW2ZF9DQeFCjLBVz0DpLWDWKZD1V0zovYxtI35wsdcJ6A==",
+  "success": true,
+  "projectFilePath": "/home/carlosmartins/Programming/Studies/ASP.NET/DesignPatterns/Helpers/Helpers.csproj",
+  "expectedPackageFiles": [
+    "/home/carlosmartins/.nuget/packages/microsoft.netcore.app.ref/6.0.16/microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "/home/carlosmartins/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.16/microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}

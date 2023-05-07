@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{DD8AA20F-1377-4F1D-8204-85841F0CE6C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpers", "Helpers\Helpers.csproj", "{D9CA6753-31E9-4AB1-BC6C-5B7598D1A19C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD8AA20F-1377-4F1D-8204-85841F0CE6C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD8AA20F-1377-4F1D-8204-85841F0CE6C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD8AA20F-1377-4F1D-8204-85841F0CE6C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD8AA20F-1377-4F1D-8204-85841F0CE6C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9CA6753-31E9-4AB1-BC6C-5B7598D1A19C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9CA6753-31E9-4AB1-BC6C-5B7598D1A19C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9CA6753-31E9-4AB1-BC6C-5B7598D1A19C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9CA6753-31E9-4AB1-BC6C-5B7598D1A19C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
