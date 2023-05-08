@@ -1,15 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-using Helpers;
+﻿using Helpers;
 using StrategyPattern.Behaviors.Fly;
 using StrategyPattern.Behaviors.Quack;
 using StrategyPattern.Ducks;
 
-var cityDuck = new CityDuck
-{
-    FlyBehavior = new DefaultFlyBehavior(),
-    QuackBehavior = new DefaultQuackBehavior()
-};
+var cityDuck = new CityDuck(new DefaultFlyBehavior(), new DefaultQuackBehavior());
 
 cityDuck.Display();
 cityDuck.Fly();
@@ -17,11 +11,7 @@ cityDuck.Quack();
 
 Divider.Divide();
 
-var wildDuck = new WildDuck
-{
-    FlyBehavior = new JetFlyBehavior(),
-    QuackBehavior = new LouderQuackBehavior()
-};
+var wildDuck = new WildDuck(new JetFlyBehavior(), new LouderQuackBehavior());
 
 wildDuck.Display();
 wildDuck.Fly();
@@ -31,11 +21,7 @@ wildDuck.Fly();
 
 Divider.Divide();
 
-var rubberDuck = new RubberDuck
-{
-    FlyBehavior = new NoFlyBehavior(),
-    QuackBehavior = new SqueakQuackBehavior()
-};
+var rubberDuck = new RubberDuck(new NoFlyBehavior(), new SqueakQuackBehavior());
 
 rubberDuck.Display();
 rubberDuck.Fly();
